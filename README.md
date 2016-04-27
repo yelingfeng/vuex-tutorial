@@ -25,12 +25,12 @@
 
 ## 组件介绍
  -  `App` 
- 主程序组件
- -  `Search`  
- 搜索框组件
+  主程序组件
+ -  `Search`
+  搜索框组件
  -  `SearchGroup` 
- 分组类型组件
- -  `List`   
+  分组类型组件
+ -  `List` 
   结果集合组件
 
 ## 组件内actions说明
@@ -56,12 +56,14 @@
    根据分组值进行查询action 
    
    
-## 教程
-  - [TODO](/tutorial/hellovuex.md)
+# 教程
+  - [目录结构](/tutorial/01.md)
+  - [TODOS1](/tutorial/02.md)
+  - [TODOS2](/tutorial/03.md)
 
 
 
-## 环境准备
+# 环境准备
 ### 初始化
 ```
 $ npm install
