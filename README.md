@@ -24,10 +24,14 @@
 ![](/tutorial/img/result01.png)
 
 ## 组件介绍
- -  App 主程序组件
- -  Search  搜索框组件
- -  SearchGroup 分组类型组件
- -  List    结果集合组件
+ -  `App` 
+ 主程序组件
+ -  `Search`  
+ 搜索框组件
+ -  `SearchGroup` 
+ 分组类型组件
+ -  `List`   
+  结果集合组件
 
 ## 组件内actions说明
 (这里主要描述调用逻辑 结果都是一个`list`)
