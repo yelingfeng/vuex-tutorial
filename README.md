@@ -1,6 +1,10 @@
 # vuex-tutorial
 
 > 一个`vuex`教程 主要介绍如何实际操作`vuex`
+[demo](http://yelingfeng.github.io/vuex-tutorial )
+
+# newList
+- [x] [新增amd版本](https://github.com/yelingfeng/vuex-tutorial/tree/master/amd)
 
 ## 前言 
 
