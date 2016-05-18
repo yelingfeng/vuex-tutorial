@@ -1,13 +1,9 @@
-
 define(function(require){
-
     var api = require("api");
     var types = require("vuex/mutation-types")
-
     var actions = {
         // 设置查询分组
         setSearchGroup : function(store,group,key){
-
             store.dispatch(types.SET_SEARCH_GROUP_VAL, group);
             // 查询结果
             actions.searchParamList(store,group,key);
@@ -22,7 +18,6 @@ define(function(require){
         },
         // 查询结果集合
         searchParamList : function(store , group ,key){
-
             var result = api.searchParamList({
                 type:group,
                 key:key
@@ -33,6 +28,5 @@ define(function(require){
         }
 
     }
-
-    return actions
+    return actions;
 })

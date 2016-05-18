@@ -4,6 +4,7 @@
 [demo](http://yelingfeng.github.io/vuex-tutorial )
 
 # newList
+- [x] [requirejs快速构建教程](/tutorial/02.md)
 - [x] [新增amd版本](https://github.com/yelingfeng/vuex-tutorial/tree/master/amd)
 
 ## 前言 
@@ -62,7 +63,7 @@
    
 # 教程
   - [目录结构](/tutorial/01.md)
-  - [TODOS1](/tutorial/02.md)
+  - [requirejs快速构建教程](/tutorial/02.md)
   - [TODOS2](/tutorial/03.md)
 
 

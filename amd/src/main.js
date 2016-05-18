@@ -2,7 +2,6 @@
  * Created by  on 2016/3/25.
  */
 define(function(require){
-
     var Vue = require("vue");
     var store = require("vuex/store")
     var app =  require("component/App")
@@ -24,7 +23,6 @@ define(function(require){
             App: app
         }
     });
-
 });
 
 
