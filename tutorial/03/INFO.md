@@ -190,4 +190,4 @@ export default {
 总体来说vuex2.0的变化还是跟vue本身一样 也算折腾了一下 新版的写法和逼格更高些。
 作为vue全家桶中重要的状态流管理框架 vuex值得你拥有
 
-[demo地址][/tutorial/03]
+[demo地址](http://yelingfeng.github.io/vuex-tutorial/tutorial/03 )
