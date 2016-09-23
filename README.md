@@ -4,6 +4,7 @@
 [demo](http://yelingfeng.github.io/vuex-tutorial )
 
 # newList
+- [x] [vuex2.x新旧变化整理](/tutorial/03/INFO.md)
 - [x] [requirejs快速构建教程](/tutorial/02.md)
 - [x] [新增amd版本](https://github.com/yelingfeng/vuex-tutorial/tree/master/amd)
 
