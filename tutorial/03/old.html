@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>旧版vuex写法</title>
+    <script src="lib/old/vue.min.js"></script>
+    <script src="lib/old/vuex.js"></script>
+</head>
+<body>
+<div id="app">
+    <App></App>
+</div>
+<script>
+
+    var actions = {
+        ADD: function(store, param ){
+            store.dispatch('COMMIT',param)
+        },
+    }
+
+    var store =  new Vuex.Store({
+        state: {
+            messages: 0
+        },
+        mutations:{
+            "COMMIT": function(state, msg) {
+                state.messages += msg;
+            }
+        },
+        getters:{
+            getMessage:function(state){
+                return state.messages
+            }
+        }
+    })
+
+    var App = Vue.extend({
+        template:`<div><p>this is vuex old version,  {{msg}}</p><button @click="add(1)">+</button><br/></div>`,
+        vuex:{
+            getters:{
+                msg : function(state){
+                    return state.messages
+                }
+            },
+            actions:{
+                add :actions.ADD
+            }
+        }
+    })
+    new Vue({
+        el: '#app',
+        store,
+        components:{
+            App:App
+        }
+    })
+
+
+
+</script>
+</body>
+</html>
