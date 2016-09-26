@@ -164,7 +164,7 @@ export default {
 
 ```
 
-##5. silent 
+##5. Silent 
 
 默认silent为false 如果silent设置为true 则表示不触发注册的subscribe
 
@@ -172,7 +172,12 @@ export default {
 
 ```javascript
 
- store.commit('ADD',param,{ silent: true})
+ store.commit('ADD',param,{ silent: true}) 
+ 
+ //源码 
+ if (!options || !options.silent) {
+   this._subscribers.forEach(sub => sub(mutation, this.state))
+ }
 
 ```
 
