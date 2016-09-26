@@ -166,21 +166,26 @@ export default {
 
 ##5. Silent 
 
+在commit一个mutation的时候 是否触发订阅的插件。
+
 默认silent为false 如果silent设置为true 则表示不触发注册的subscribe
 
 一般注册的插件包括dev-tools 都不会触发了
 
 ```javascript
-
+ // 实例代码
  store.commit('ADD',param,{ silent: true}) 
- 
- //源码 
- if (!options || !options.silent) {
-   this._subscribers.forEach(sub => sub(mutation, this.state))
- }
 
 ```
 
+```javascript
+   
+ // 源码 
+ if (!options || !options.silent) {
+   this._subscribers.forEach(sub => sub(mutation, this.state))
+ }  
+    
+```
 
 
 ##6. 其他变动
