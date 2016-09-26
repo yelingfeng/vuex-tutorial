@@ -164,7 +164,21 @@ export default {
 
 ```
 
-##5. 其他变动
+##5. silent 
+
+默认silent为false 如果silent设置为true 则表示不触发注册的subscribe
+
+一般注册的插件包括dev-tools 都不会触发了
+
+```javascript
+
+ store.commit('ADD',param,{ silent: true})
+
+```
+
+
+
+##6. 其他变动
 
 最新的`vuex-2.0.0.rc5` 为说明API一些新变化
 ```javascript
