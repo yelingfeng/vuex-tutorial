@@ -36,7 +36,7 @@
     "gulp-util": "^3.0.7",
     "html-webpack-plugin": "^2.15.0",
     "image-webpack-loader": "^1.6.3",
-    "jquery": "^2.2.2",
+    "jquery": "^3.0",
     "json-loader": "^0.5.4",
     "lodash": "^4.6.1",
     "moment": "^2.13.0",
